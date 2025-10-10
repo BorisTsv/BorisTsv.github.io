@@ -1,0 +1,10 @@
+.wrapper {
+position: absolute;
+top:0; right:10px; width: 800px; height: 800px;}
+
+body {background-image: url(img/NY.jpg);
+background-size:  cover;  
+background-color: #18d9c2;
+background-blend-mode: screen;
+}
+.imgpanda{width: 700px; height: 608px}
