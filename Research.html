@@ -1,50 +1,121 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Research</title>
+<style>
+  body {
+    margin: 40px auto;
+    max-width: 900px;
+    font-family: "Georgia", serif;
+    background-color: #ffffff;
+    line-height: 1.7;
+    color: #000000;
+  }
 
-<body >
-<center><h2>Research</h2></center>
-<h3>Research interests </h3> <p>
+  h2, h3 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  h3 {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+
+  ol {
+    padding-left: 25px;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  i {
+    color: #333333;
+  }
+
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    text-align: justify;
+  }
+</style>
+</head>
+<body>
+
+<h2>Research</h2>
+
+<h3>Research Interests</h3>
+<p>
 My research interests revolve around representation theory and its interactions with algebraic geometry, combinatorics, and applications. 
 In pure mathematics, I work in geometric representation theory, particularly on quantizations of conical symplectic resolutions, with an emphasis on Nakajima quiver varieties. 
 I am also interested in various manifestations of the (derived) McKay correspondence and, more generally, in constructing meaningful maps between Hall algebras associated with (sub)categories of derived-equivalent varieties. 
-In quantum computing, my work focuses on the performance analysis and structural properties of algorithms for solving combinatorial optimization problems. 
-Of particular interest are the Quantum Approximate Optimization Algorithm (QAOA) and, more broadly, Variational Quantum Algorithms.
+In quantum computing, my work focuses on the performance analysis and structural properties of algorithms for solving combinatorial optimization problems, especially the Quantum Approximate Optimization Algorithm (QAOA) and, more broadly, Variational Quantum Algorithms.
 </p>
-<h3>Papers and Preprints</h3>
+
+<!-- MATHEMATICS -->
+<h3>Mathematics</h3>
 <ol>
+  <li><i>On a Dichotomy for Skyscraper Sheaves under the Bridgeland–King–Reid Equivalence</i>, 
+  <a href="https://arxiv.org/abs/2201.07847">arXiv</a></li>
 
-<li><i>On a Dichotomy for Skyscraper Sheaves under the Bridgeland-King-Reid Equivalence</i>, <a href="https://arxiv.org/abs/2201.07847">arXiv</a></li>
-<li>(with K. Kaveh and C. Manon)<i> Toric vector bundles over a discrete valuation ring and Bruhat-Tits buildings</i>, <a href="https://arxiv.org/abs/2208.04299">arXiv</a></li>
-<li><i>The universe inside Hall algebras of coherent sheaves on toric resolutions</i>, <a href="https://arxiv.org/abs/2201.07847">arXiv</a>, Int. Math. Res. Not. IMRN, <b>2024</b>, 2024, pp 8653–8671</li>
-<li><i>On categories O of quiver varieties overlying the bouquet graphs</i>, <a href="https://arxiv.org/abs/1911.08463">arXiv</a>,  Represent. Theory, Amer. Math. Soc., <b>27</b>, 2023, pp 431-472,</li>
-<li><i>On Poincare polynomials of shuffle algebra representations</i>, <a href="https://arxiv.org/abs/1911.11115">arXiv</a></li>
-<li>(with M. Elhamdadi and N. Fernando)<i> Ring theoretic aspects of quandles</i>, <a href="https://arxiv.org/abs/1805.05908">arXiv</a>, Journal of Algebra, <b>526</b>, 2019, pp 166-187</li>
-<li><i>Nontrivial Topological Quandles</i>, <a href="https://arxiv.org/abs/1811.00886">arXiv</a>, Arnold Mathematical Journal, <b>8</b>, 2022, pp 535-542 </li>
+  <li>(with K. Kaveh and C. Manon) <i>Toric vector bundles over a discrete valuation ring and Bruhat–Tits buildings</i>, 
+  <a href="https://arxiv.org/abs/2208.04299">arXiv</a></li>
 
+  <li><i>The universe inside Hall algebras of coherent sheaves on toric resolutions</i>, 
+  <a href="https://arxiv.org/abs/2201.07847">arXiv</a>, <em>Int. Math. Res. Not. IMRN</em>, <b>2024</b>, pp. 8653–8671</li>
+
+  <li><i>On categories O of quiver varieties overlying the bouquet graphs</i>, 
+  <a href="https://arxiv.org/abs/1911.08463">arXiv</a>, <em>Represent. Theory (AMS)</em>, <b>27</b>, 2023, pp. 431–472</li>
+
+  <li><i>On Poincaré polynomials of shuffle algebra representations</i>, 
+  <a href="https://arxiv.org/abs/1911.11115">arXiv</a></li>
+
+  <li>(with M. Elhamdadi and N. Fernando) <i>Ring theoretic aspects of quandles</i>, 
+  <a href="https://arxiv.org/abs/1805.05908">arXiv</a>, <em>J. Algebra</em>, <b>526</b>, 2019, pp. 166–187</li>
+
+  <li><i>Nontrivial Topological Quandles</i>, 
+  <a href="https://arxiv.org/abs/1811.00886">arXiv</a>, <em>Arnold Math. J.</em>, <b>8</b>, 2022, pp. 535–542</li>
 </ol>
+
+<!-- QUANTUM COMPUTING -->
 <h3>Quantum Computing</h3>
 <ol>
-<li>(with M. Nuyten and B. Bakalov)<i> Provable avoidance of barren plateaus for GM-QAOAs</i>, <a href="https://arxiv.org/abs/2509.10424">arXiv</a>, Submitted </li>
-<li>(with I. Safro and Y. Alexeev)<i> Equivariant QAOA and the Duel of the Mixers</i>, <a href="https://arxiv.org/abs/2405.07211">arXiv</a>, Submitted</li>
-<li>(with I. Safro and Y. Alexeev)<i> Of Representation Theory and Quantum Approximate Optimization Algorithm</i>, <a href="https://arxiv.org/abs/2309.13787">arXiv</a>, Submitted</li>
+  <li>(with M. Nuyten and B. Bakalov) <i>Provable avoidance of barren plateaus for GM-QAOAs</i>, 
+  <a href="https://arxiv.org/abs/2509.10424">arXiv</a>, Submitted</li>
+
+  <li>(with I. Safro and Y. Alexeev) <i>Equivariant QAOA and the Duel of the Mixers</i>, 
+  <a href="https://arxiv.org/abs/2405.07211">arXiv</a>, Submitted</li>
+
+  <li>(with I. Safro and Y. Alexeev) <i>Of Representation Theory and Quantum Approximate Optimization Algorithm</i>, 
+  <a href="https://arxiv.org/abs/2309.13787">arXiv</a>, Submitted</li>
 </ol>
-  
+
+<!-- APPLIED MATHEMATICS -->
 <h3>Applied Mathematics</h3>
 <ol>
-<li>(with M. Diss)<i> Manipulable outcomes within the class of scoring voting rules</i>, <a href="https://arxiv.org/abs/1911.09173">arXiv</a>, Mathematical Social Sciences,
-<b>111</b>, May 2021, pp 11-18</li>
+  <li>(with M. Diss) <i>Manipulable outcomes within the class of scoring voting rules</i>, 
+  <a href="https://arxiv.org/abs/1911.09173">arXiv</a>, <em>Math. Social Sci.</em>, <b>111</b>, 2021, pp. 11–18</li>
 </ol>
 
+<!-- SURVEYS -->
 <h3>Surveys</h3>
 <ol>
-<li>
-(with D. Matvieievskyi) <i>Soergel's V and the Kazhdan-Lusztig conjecture</i>, chapter in Introduction to Soergel bimodules, RSME Springer Series, 2020
+  <li>(with D. Matvieievskyi) <i>Soergel’s V and the Kazhdan–Lusztig conjecture</i>, in 
+  <em>Introduction to Soergel bimodules</em>, RSME Springer Series, 2020</li>
 </ol>
 
-
 </body>
-
 </html>
 
 
